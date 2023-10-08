@@ -15,13 +15,13 @@ DATA_DIR = 'training'
 
 #Loading Data
 x_train_dir = os.path.join(DATA_DIR, 'train_raw')
-y_train_dir = os.path.join(DATA_DIR, 'train_maks')
+y_train_dir = os.path.join(DATA_DIR, 'train_masks')
 
 x_valid_dir = os.path.join(DATA_DIR, 'valid_raw')
-y_valid_dir = os.path.join(DATA_DIR, 'valid_maks')
+y_valid_dir = os.path.join(DATA_DIR, 'valid_masks')
 
 x_test_dir = os.path.join(DATA_DIR, 'test_raw')
-y_test_dir = os.path.join(DATA_DIR, 'test_maks')
+y_test_dir = os.path.join(DATA_DIR, 'test_masks')
 
 
 # Function to view images
