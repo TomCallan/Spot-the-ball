@@ -10,18 +10,18 @@ import albumentations as albu
 import torch
 import segmentation_models_pytorch as smp
 
-DATA_DIR = 'D:/705/UNet/Pytorch-UNet-master/data/'
+DATA_DIR = 'training'
 
 
 #Loading Data
-x_train_dir = os.path.join(DATA_DIR, 'trainimgs')
-y_train_dir = os.path.join(DATA_DIR, 'trainmasks')
+x_train_dir = os.path.join(DATA_DIR, 'train_raw')
+y_train_dir = os.path.join(DATA_DIR, 'train_maks')
 
-x_valid_dir = os.path.join(DATA_DIR, 'validimgs')
-y_valid_dir = os.path.join(DATA_DIR, 'validmasks')
+x_valid_dir = os.path.join(DATA_DIR, 'valid_raw')
+y_valid_dir = os.path.join(DATA_DIR, 'valid_maks')
 
-x_test_dir = os.path.join(DATA_DIR, 'testimgs')
-y_test_dir = os.path.join(DATA_DIR, 'testmsks')
+x_test_dir = os.path.join(DATA_DIR, 'test_raw')
+y_test_dir = os.path.join(DATA_DIR, 'test_maks')
 
 
 # Function to view images
